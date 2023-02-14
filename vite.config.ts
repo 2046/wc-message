@@ -11,8 +11,9 @@ export default defineConfig({
     minify: true,
     lib: {
       name: 'wcmessage',
-      formats: ['umd', 'es', 'cjs'],
-      entry: './src/main.ts'
+      formats: ['iife'],
+      entry: './src/main.ts',
+      fileName: () => 'index.js'
     }
   }
 })
