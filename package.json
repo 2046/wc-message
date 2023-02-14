@@ -1,7 +1,21 @@
 {
   "name": "wc-message",
-  "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "keywords": [
+    "message",
+    "web component",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2046/wc-message.git"
+  },
+  "author": "2046",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2046/wc-message/issues"
+  },
+  "homepage": "https://github.com/2046/wc-message#readme",
   "type": "module",
   "main": "./dist/wc-message.cjs",
   "exports": {
