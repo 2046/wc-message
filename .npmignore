@@ -1,0 +1,28 @@
+# -- Lint config --
+.husky
+.lintstagedrc
+
+# -- Commit lint config --
+.czrc
+.cz-config.js
+.commitlintrc
+
+# -- ESlint config --
+.eslintrc
+
+# -- Prettier config --
+.prettierrc
+
+# -- Build config --
+vite.config.ts
+svelte.config.js
+
+# -- ts config --
+tsconfig.json
+tsconfig.node.json
+
+# -- VSCode --
+/.vscode
+
+# -- Project config --
+index.html

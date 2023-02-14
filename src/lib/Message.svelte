@@ -1,4 +1,4 @@
-<svelte:options tag="message-component" />
+<svelte:options tag="wc-message" />
 
 <script lang="ts">
   import { fly } from 'svelte/transition'

@@ -10,8 +10,9 @@ export default defineConfig({
   build: {
     minify: true,
     lib: {
-      entry: './src/main.ts',
-      formats: ['iife']
+      name: 'wcmessage',
+      formats: ['umd', 'es', 'cjs'],
+      entry: './src/main.ts'
     }
   }
 })
