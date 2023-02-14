@@ -4,10 +4,16 @@
   import { fly } from 'svelte/transition'
 
   export let show: boolean = false
-  export let duration: string = '3000'
-  export let type: 'info' | 'success' | 'error' | 'warning'
+  export let duration: number = 3000
+  export let type: 'info' | 'success' | 'error' | 'warning' = 'success'
 
-  setTimeout(() => show = false, parseInt(duration, 10))
+  let timer: any = 0
+
+  $: if (show) {
+    timer = setTimeout(() => show = false, duration)
+  } else {
+    clearTimeout(timer)
+  }
 </script>
 
 {#if show}
