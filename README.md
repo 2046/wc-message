@@ -9,7 +9,7 @@ A UI friendly message web component.
 Reference component in the page:
 
 ```html
-<script src="https://unpkg.com/wc-message@1.0.5/dist/index.js"></script>
+<script src="https://unpkg.com/wc-message@latest/dist/index.js"></script>
 ```
 
 ### Step 2:
