@@ -43,7 +43,6 @@
     top: 12px;
     left: 0;
     right: 0;
-    z-index: 99999;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
